@@ -1,8 +1,28 @@
 aid: clean-urban-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clean-urban-energy.png
 name: Clean Urban Energy
-description: Clean Urban Energy is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Clean Urban Energy, Inc. was a Chicago, Illinois cleantech company that
+  turned large commercial office buildings into grid-scale thermal energy storage assets.
+  Its technology harnessed the existing thermal mass of a building — concrete, drywall,
+  furnishings — by pre-cooling during off-peak hours and coasting through peak demand,
+  effectively operating the building as a multi-megawatt battery for demand response
+  and load shifting without installing dedicated storage hardware. The company raised
+  a reported $7 million venture round and appears in the Battery Ventures list of all
+  portfolio companies. As of a July 2026 review the company has no live corporate web
+  presence: the cleanurbanenergy.com domain no longer serves company content, and no
+  developer portal, API, documentation, or GitHub organization could be located. It is
+  catalogued here as an inactive, non-API-provider company record.'
 url: https://raw.githubusercontent.com/api-evangelist/clean-urban-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,36 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: inactive
+x-status-evidence:
+- 'cleanurbanenergy.com resolves via Cloudflare but serves unrelated third-party content
+  (an academic essay-writing content farm); no MX, SPF or TXT records present'
+- 'No api.cleanurbanenergy.com host; cleanurbanenergy.net and cleanurbanenergy.io do not resolve'
+- 'GitHub organization search for cleanurbanenergy / clean-urban-energy returns 0 results'
+- 'No developer portal, API reference, or documentation found in web search'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Cleantech
+- Energy Storage
+- Thermal Energy Storage
+- Demand Response
+- Smart Buildings
+- Commercial Real Estate
+- Chicago
+- Inactive
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
