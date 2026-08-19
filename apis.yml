@@ -37,7 +37,7 @@ x-status-evidence:
 - 'No api.cleanurbanenergy.com host; cleanurbanenergy.net and cleanurbanenergy.io do not resolve'
 - 'GitHub organization search for cleanurbanenergy / clean-urban-energy returns 0 results'
 - 'No developer portal, API reference, or documentation found in web search'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
